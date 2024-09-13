@@ -4,7 +4,7 @@ class Program
 {
      static int Main() 
     {
-        int poäng = 0; // Variabel för att hålla koll på rätta svar
+        int poäng = 0; 
 
         Console.WriteLine("Välkommen till frågesporten!");
 
@@ -18,7 +18,7 @@ class Program
         if (svar1 == "2")
         {
             Console.WriteLine("Rätt svar!");
-            poäng++; // Öka poängen om svaret är rätt
+            poäng++; 
         }
         else
         {
@@ -27,7 +27,7 @@ class Program
 
         // Fråga 2
         Console.WriteLine("Vad är 8*8?")
-        Console.WriteLine("1. 67");
+        Console.WriteLine("1. 6");
         Console.WriteLine("2. 0");
         Console.WriteLine("3. 64");
         string svar2 = Console.ReadLine();
