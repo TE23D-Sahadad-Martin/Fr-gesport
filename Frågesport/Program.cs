@@ -2,7 +2,7 @@
 
 class Program
 {
-     static int Main() 
+    static void Main()
     {
         int poäng = 0; 
 
@@ -26,13 +26,13 @@ class Program
         }
 
         // Fråga 2
-        Console.WriteLine("Vad är 8*8?")
+        Console.WriteLine("Vad är 8*8?");
         Console.WriteLine("1. 6");
         Console.WriteLine("2. 0");
         Console.WriteLine("3. 64");
         string svar2 = Console.ReadLine();
 
-        if (svar2 == "2")
+        if (svar2 == "3")
         {
             Console.WriteLine("Rätt svar!");
             poäng++;
@@ -79,5 +79,7 @@ class Program
         }
 
         Console.WriteLine("Tack för att du spelade!");
+
+        Console.ReadLine();
     }
 }
