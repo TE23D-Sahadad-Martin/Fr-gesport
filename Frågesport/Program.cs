@@ -6,7 +6,7 @@ class Program
     {
         int poäng = 0; 
 
-        Console.WriteLine("Välkommen till frågesporten!");
+        Console.WriteLine("Välkommen till frågesporten, svara antingen 1, 2 eller 3!");
 
         // Fråga 1
         Console.WriteLine("Fråga 1: Vilken färg har himlen vanligtvis?");
